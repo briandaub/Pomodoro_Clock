@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300|Raleway:900);
+
+html, body {
+    font-size: 100%;
+}
+
+body {
+    background: #333;
+    color: #fff;
+}
+
+h1 {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 3em;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#break, #session {
+    display: inline-block;
+    margin: 50px;
+    font-size: 1.15em;
+}
+
+.minus, .plus {
+    border: none;
+    background-color: transparent;
+    margin: 10px;
+}
+
+button:focus {
+    outline: none;
+}
+
+#canvas {
+    display: block;
+    margin: 0 auto;
+}

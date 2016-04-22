@@ -18,16 +18,16 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+<body>
     
     <div id="wrapper">  
-        <h1>Pomodoro Clock</h1>
+        <h1>Pomodoro Timer</h1>
 
         <div id="break">
             <!-- Display the break time length and add or subtract time from break -->
             <p>Break Length</p>
             <button onclick="setBreakLength(-1)" class="minus">-</button>
-              <span id="breakTime">5</span>
+              <span id="breakTime"></span>
             <button onclick="setBreakLength(1)" class="plus">+</button>
         </div><!-- /end #break -->
 
@@ -35,12 +35,12 @@
             <!-- Display the session time length and add or subtract time from length --> 
             <p>Session Length</p>
             <button onclick="setSessionLength(-1)" class="minus">-</button>
-              <span id="sessionTime">25</span>
+              <span id="sessionTime"></span>
             <button onclick="setSessionLength(1)" class="plus">+</button>
         </div><!-- /end #session -->
     </div><!-- /end #wrapper -->
-      
     <canvas id="canvas" width="500" height="500"></canvas>
+    <p id="session-name"></p>
       
     <!-- JavaScript -->
     <script src="js/script.js"></script>
